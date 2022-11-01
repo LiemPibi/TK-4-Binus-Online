@@ -1,0 +1,31 @@
+public class Main {
+    public static void main(String[] args) {
+
+        int jawaban;
+        int []angka={237,84,122,260,169};
+
+        System.out.println("Selamat Datang di Program Simulasi Menu");
+        System.out.println("1. Random Data");
+        System.out.println("2. Simulasi Bubble Sort - Ascending");
+        System.out.println("3. Simulasi Selection Sort - Ascending");
+        System.out.println("4. Simulasi Bubble Sort - Ascending");
+        System.out.println("5. Simulasi Selection Sort - Ascending");
+        System.out.println("6. Keluar");
+
+        System.out.println("Masukkan pilihan anda");
+
+        System.out.println("Batas Bawah =" );
+        System.out.println(" Batas Atas = ");
+        
+        for (int i = 0; i < angka.length; i++) {
+            System.out.println(angka[i]+" ");
+        }
+        System.out.println("");
+        Bubblesort(angka);
+        for (int i = 0; i < angka.length; i++) {
+            System.out.println(angka[i]+" ");
+        }
+
+
+    }
+}
